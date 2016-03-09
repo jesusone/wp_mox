@@ -647,7 +647,7 @@
             }
         }
     }
-}    
+}
 /* ==========================================================================
    [End] 11. Images Carousel
 ========================================================================== */
@@ -1014,7 +1014,7 @@
     .vc_custom_heading.style-2 {
         display: inline-block;
         background:#282828;
-    } 
+    }
 }
 
 .vc_custom_heading.style-1 {
@@ -1049,7 +1049,7 @@
 #zo-carousel.template-zo_carousel--testimonial {
     position: relative;
     .owl-next,.owl-prev {
-        @include border-radius(50%); 
+        @include border-radius(50%);
         font-size: 26px;
         &:hover {
             @include background-gradient-color(rgba(23,223,190,1),rgba(21, 218, 192, 1),rgba(13, 200, 203, 1),rgba(6, 180, 215, 1),rgba(4, 175, 218, 1));
@@ -1103,7 +1103,7 @@
         }
         .zo-testimonial-position {
             font-size: 13px;
-            font-style: italic; 
+            font-style: italic;
             margin-left: 10px;
             color: $primary_color;
         }
@@ -1128,7 +1128,7 @@
         margin-top: 20px;
         margin-bottom: 15px;
         h3 {
-            font-size: 20px;  
+            font-size: 20px;
             margin-bottom: 5px;
             line-height: 1.2;
         }
@@ -1200,10 +1200,10 @@
             .zo-pricing-button {
                 .btn-pricing {
                     background: #fff;
-                    color: $primary_color;    
+                    color: $primary_color;
                 }
             }
-        } 
+        }
     }
     .zo-pricing-item  {
         .zo-pricing-inner {
@@ -1211,7 +1211,7 @@
             text-align: center;
             padding: 40px 20px;
             cursor: pointer;
-            @include border-radius(30px); 
+            @include border-radius(30px);
             &:hover {
                 background: $primary_color ! important;
                 color: #fff;
@@ -1222,12 +1222,12 @@
                 .zo-pricing-button {
                     .btn-pricing {
                         background: #fff;
-                        color: $primary_color;    
+                        color: $primary_color;
                     }
                 }
             }
             .zo-pricing-title {
-                text-transform: uppercase; 
+                text-transform: uppercase;
                 font-size: 24px;
                 line-height: 1.2;
                 margin: 0 0 16px;
@@ -1270,7 +1270,7 @@
             }
             .zo-pricing-button {
                 .btn-pricing {
-                    @include border-radius(500px);    
+                    @include border-radius(500px);
                     padding: 5px 22px;
                     border: 2px solid #ddd;
                     font-size: 14px;
@@ -1335,8 +1335,8 @@
     }
 }
 
- .zo-carousel-team{
-    .zo-grid-item, .zo-carousel-item{  
+.zo-carousel-team{
+    .zo-grid-item, .zo-carousel-item{
         .zo-team-inner{
             position: relative;
             text-align: center;
@@ -1353,17 +1353,17 @@
                     .zo-team-overlay{
 
                         &:before{
-                            bottom: -50%; 
-                            opacity: 1; 
+                            bottom: -50%;
+                            opacity: 1;
                         }
                         &:after{
-                            top: -50%; 
+                            top: -50%;
                             opacity: 1;
                         }
                     }
                     .zo-team-socials{
                         opacity: 1;
-                    }  
+                    }
                 }
                 .zo-team-overlay{
                     &:before{
@@ -1536,16 +1536,16 @@
                     line-height: 25px;
                     padding-left: 110px;
                     margin: 0 0 16px;
-                } 
+                }
             }
             .zo_circle {
-                @include border-radius(100%);  
+                @include border-radius(100%);
             }
             .zo_square {
                 @include border-radius(0px);
             }
             .zo_square_radius {
-                @include border-radius(15px);   
+                @include border-radius(15px);
             }
             .fancybox-content {
                 padding-left: 110px;
@@ -1577,7 +1577,7 @@
                     transition: all 0.3s ease 0s;
                     width: 100%;
                 }
-                &:after{ 
+                &:after{
                     background: $primary_color;
                     content: "";
                     display: block;
@@ -1626,7 +1626,7 @@
                     margin-top: 7px;
                     font-size: 14px;
                     line-height: 1.4;
-                    padding: 5px 25px;   
+                    padding: 5px 25px;
                     &:hover{
                         background: #282828;
                         border-color: #282828;
@@ -1637,7 +1637,7 @@
                 .zo-portfolio-overlay-inner{
                     opacity: 1;
                 }
-                .zo-portfolio-overlay{ 
+                .zo-portfolio-overlay{
                     &:before{
                         bottom: -50%;
                         opacity: 0.7;
@@ -1715,7 +1715,7 @@
                     }
                 }
 
-            } 
+            }
             .zo-portfolio-overlay{
                 transition: all 300ms ease-in-out;
             }
@@ -1726,24 +1726,24 @@
                     text-align: left;
                     margin: 0;
 
-                   a {
-                       color: #2e2e2e;
-                       line-height: 30px;
-                       font-size: 16px;
-                       text-transform: uppercase;
-                       font-weight: 700;
-                       position: relative;
-                       &:after {
-                           content: '';
-                           background:$primary_color;
-                           height: 9px;
-                           width: 38px;
-                           left: 0;
-                           bottom: -45px;
-                           position: absolute;
-                       }
+                    a {
+                        color: #2e2e2e;
+                        line-height: 30px;
+                        font-size: 16px;
+                        text-transform: uppercase;
+                        font-weight: 700;
+                        position: relative;
+                        &:after {
+                            content: '';
+                            background:$primary_color;
+                            height: 9px;
+                            width: 38px;
+                            left: 0;
+                            bottom: -45px;
+                            position: absolute;
+                        }
 
-                   }
+                    }
 
 
                 }
@@ -1819,7 +1819,7 @@
                 padding: 2em;
                 text-transform: uppercase;
                 display: block;
-                transform: scale(1.15);  
+                transform: scale(1.15);
                 transition: opacity 0.35s ease 0s, transform 0.35s ease 0s;
                 &:before {
                     border: 3px solid #fff;
@@ -1836,7 +1836,7 @@
                     left: 50%;
                     top: 50%;
                     .zo-masonry-title{
-                        border: 4px solid #fff;  
+                        border: 4px solid #fff;
                         display: inline-block;
                         font-size: 30px;
                         font-weight: 700;
@@ -1906,7 +1906,7 @@
                     transition: all 0.3s ease 0s;
                     width: 100%;
                 }
-                &:after{ 
+                &:after{
                     background: rgba(3, 172, 220, 0.7) none repeat scroll 0 0;
                     content: "";
                     display: block;
@@ -1965,14 +1965,14 @@
                 &:hover{
                     .zo-masonry-overlay{
                         &:before{
-                            bottom: -50%; 
-                            opacity: 1; 
-                        }
-                        &:after{
-                            top: -50%; 
+                            bottom: -50%;
                             opacity: 1;
                         }
-                    }  
+                        &:after{
+                            top: -50%;
+                            opacity: 1;
+                        }
+                    }
                     .zo-masonry-overlay-inner{
                         opacity: 1;
                     }
@@ -2044,7 +2044,7 @@
                     transition: all 0.3s ease 0s;
                     width: 100%;
                 }
-                &:after{ 
+                &:after{
                     background: rgba(3, 172, 220, 0.7) none repeat scroll 0 0;
                     content: "";
                     display: block;
@@ -2106,18 +2106,18 @@
         .left.carousel-control {
             span {
                 &:before {
-                    left: 20px;  
+                    left: 20px;
                 }
-            }  
+            }
 
         }
         .right.carousel-control {
             span {
                 &:before {
-                    right: 20px;  
+                    right: 20px;
                 }
-            }  
-        } 
+            }
+        }
         .carousel-control {
             transform: translateY(50%);
             height: 100%;
@@ -2138,7 +2138,7 @@
                     @include border-radius(50%);
                 }
             }
-        } 
+        }
     }
     .zo-video{
         .wp-video{
@@ -2147,7 +2147,7 @@
     }
     .zo-grid-media {
         position: relative;
-        overflow: hidden; 
+        overflow: hidden;
         text-align: center;
         .zo-blog-overlay{
             &:before {
@@ -2208,8 +2208,8 @@
                     top: -50%;
                 }
             }
-            .zo-blog-overlay-inner { 
-                opacity: 1;  
+            .zo-blog-overlay-inner {
+                opacity: 1;
                 span.zo-post-like,span.zo-comment {
                     color: $primary_color;
                 }
@@ -2251,7 +2251,7 @@
     }
     .zo-blog-classic{
         margin-bottom: 0;
-        position: initial;  
+        position: initial;
     }
     .timeline {
         padding: 0;
@@ -2491,7 +2491,7 @@
 
 .carousel-about-1{
     .owl-theme .owl-nav [class*="owl-"] {
-        background: #f5f5f5; 
+        background: #f5f5f5;
     }
 }
 /*[start gallery]*/
@@ -2518,7 +2518,7 @@
         h3 {
             margin: 3px 0;
             a{
-                font-size: 24px; 
+                font-size: 24px;
                 color: #fff !important;
                 padding: 0;
                 margin: 3px 0;
@@ -2555,7 +2555,7 @@
             .vc_pagination-trigger{
                 background: $primary_color ! important;
             }
-        } 
+        }
     }
     text-align: center;
     ul.vc_pagination  {
@@ -2564,7 +2564,7 @@
 
         }
     }
-    .zo-box-text { 
+    .zo-box-text {
         p {
             font-family:"Athelas";
             font-style: italic;
@@ -2940,29 +2940,29 @@
                     padding-top: 16px !important;
                 }
                 .fancybox-icon{
-                                background-color: #fff!important;
-                                font-size: 70px!important;
-                                width: 70px!important;
-                                height: 70px!important;
-                                margin:0 26px 30px 15px!important;
-                                i{
-                                    color: #212121!important;
-                                    line-height: 70px;
-                                }
-                            }
+                    background-color: #fff!important;
+                    font-size: 70px!important;
+                    width: 70px!important;
+                    height: 70px!important;
+                    margin:0 26px 30px 15px!important;
+                    i{
+                        color: #212121!important;
+                        line-height: 70px;
+                    }
+                }
             }
             .fancybox-content{
-                        padding-left: 100px!important;
-                        p{
-                            font-size: 14px;
-                            font-weight:600 ;
-                            line-height: 20px;
-                            font-family: "Roboto";
-                            letter-spacing: 1px;
-                            color:#9e9e9e;
+                padding-left: 100px!important;
+                p{
+                    font-size: 14px;
+                    font-weight:600 ;
+                    line-height: 20px;
+                    font-family: "Roboto";
+                    letter-spacing: 1px;
+                    color:#9e9e9e;
 
-                        }
-                    }
+                }
+            }
 
         }
     }
@@ -3012,35 +3012,38 @@
     }
 }
 .template-zo_fancybox_single--style-3{
-  .zo-fancyboxes-body{
-      .zo-fancybox-item{
-          .fancybox-header{
-              .fancybox-icon{
-                  margin-right: 40px;
-                  i{
-                        font-size: 70px;
-                  }
-              }
-              h3{
-                  font-size: 20px!important;
-                  line-height: 45px!important;
-                  font-family: Roboto;
-                  color:#fff;
-                  text-transform: inherit!important;
-                  margin: 0;
-              }
-          }
-          .fancybox-content{
-              font-size: 15px;
-              line-height: 35px;
-              color: #5d5d5d5;
-              font-family: Open Sans;
-              text-align: justify;
-              margin-bottom: 20px;
+    .zo-fancyboxes-body{
+        .zo-fancybox-item{
+            .fancybox-header{
+                .fancybox-icon{
+                    margin-right: 40px;
+                    margin-left: 0px!important;
+                    margin-top: 12px;
+                    i{
+                        font-size: 57px;
+                    }
+                }
+                h3{
+                    font-size: 20px!important;
+                    line-height: 45px!important;
+                    font-family: Roboto;
+                    color:#fff;
+                    padding-top: 12px;
+                    text-transform: inherit!important;
+                    margin: 0 0 2px!important;
+                }
+            }
+            .fancybox-content{
+                font-size: 15px;
+                line-height: 35px;
+                color: #5d5d5d5;
+                font-family: Open Sans;
+                text-align: justify;
+                margin-bottom: 35px;
 
-          }
-      }
-  }
+            }
+        }
+    }
 }
 
 
@@ -3132,10 +3135,10 @@
         font-family: Open Sans;
         letter-spacing: 4px;
         color: #fff;
-        
-            
-        
-            
+
+
+
+
     }
 }
 /*zo-progress-bar-max-width*/
@@ -3167,7 +3170,7 @@
                 }
             }
         }
-}
+    }
 
 
 
@@ -3176,7 +3179,7 @@
 .vc_button-2-align-center{
     a.zo_button_2{
         font-family: "Open Sans";
-    
+
         font-size: 12px;
         color: $primary_color!important;
         font-weight: 700;
